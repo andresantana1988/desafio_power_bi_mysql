@@ -2,7 +2,7 @@ Desafio de Projeto – Integração do Power BI com o MYSQL.
 
 IMPORTANTE:
 
-	Devido ao fato de eu não possuir cartão de crédito para poder criar um conta o Azure, criei o desafio usando o MYSQL instalado localmente.
+Devido ao fato de eu não possuir cartão de crédito para poder criar um conta o Azure, criei o desafio usando o MYSQL instalado localmente.
 DESAFIO E RESOLUÇÃO 
 Durante a execução dos Scripts , me deparei com o seguinte erro ao inserir os dados:
 Error Code: 1452. Cannot add or update a child row: a foreign key constraint fails (`azure_company`.`employee`, CONSTRAINT `fk_employee` FOREIGN KEY (`Super_ssn`) REFERENCES `employee` (`Ssn`) ON DELETE SET NULL ON UPDATE CASCADE)	0.016 sec
